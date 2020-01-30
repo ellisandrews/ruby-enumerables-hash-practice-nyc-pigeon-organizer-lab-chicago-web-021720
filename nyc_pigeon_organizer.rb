@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
         end
       
         # Update the new hash appropriately
-        new_hash[pigron_name][key1] << key2
+        new_hash[pigron_name][key1] << key2.to_s
 
         i += 1
       
